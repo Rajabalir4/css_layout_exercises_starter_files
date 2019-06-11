@@ -1,0 +1,112 @@
+body{ 
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	color:black;
+}
+
+.navibar{
+
+	border-bottom:1px solid black;
+	position: fixed;
+	width: 100%;
+	height:40px;
+	background-color:rgb(238, 238, 238);
+}
+.logo{
+	font-family: 'Raleway', sans-serif;
+	line-height: 40px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.hoverclass:hover{
+	text-decoration: underline;
+}
+.lcontainer{
+	position: absolute;
+	top: 10px;
+	right: 10px;	
+}
+.lcontainer a{
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 18px	;
+}
+
+
+.searchsection{
+	position: relative;
+	margin-top:100px;
+	margin-left: 50px; 
+	margin-bottom: 30px;
+}
+.box{
+border: 1px solid gray;
+  border-radius: 4px;
+  height: 30px;
+  padding-left:5px;
+}
+.searchbutton{
+	display: inline-block;
+	width: 30px;
+    height: 28px;
+    padding: 2px 6px 2px 6px ;
+    background-color: white;
+    vertical-align: bottom;
+}
+input[type="text"]{
+	display: inline-block;
+	width: 400px;
+	font-size: 16px;
+	font-weight: 500px;
+}
+.pages{
+	position: relative;
+	margin-left: 50px; 
+	margin-bottom: 30px;
+	display: inline-block;
+    font-size: 0;	
+}
+.pagebutton1{
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 0 4px 4px 0;
+}
+.pagebutton2{
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 4px 0 0 4px;
+}
+.pagemiddle{
+	border: 1px solid gray;
+	border-radius: 0;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+}
+main{
+	position: relative;
+	margin-left: 10px; 
+	margin-bottom: 30px;
+}
+main ul{
+	list-style-type: none;
+
+}
+.listingdate{
+	color:gray;
+	padding-right: 30px;
+	margin-bottom: 30px;
+	font-size:20px;
+
+}
+.listlocation{
+	color:gray;
+	padding-left: 30px;
+	margin-bottom: 30px;
+	font-size:20px;
+}
+
